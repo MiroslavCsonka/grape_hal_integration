@@ -1,5 +1,5 @@
-require "grape_hal_integration/version"
+require 'grape_hal_integration/version'
 
-module GrapeHalIntegration
+class GrapeHalIntegration
   # Your code goes here...
 end
