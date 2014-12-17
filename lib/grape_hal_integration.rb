@@ -60,7 +60,7 @@ class GrapeHalIntegration < Grape::API
         value
       end
 
-      hal = {_links: HalIntegrator.links(class_name, name)}
+      hal = {_links: GrapeHalIntegration.links(class_name, name)}
       response = self.instance_exec *get_params_values, &block
       hal.merge(response)
     end
