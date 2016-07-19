@@ -95,8 +95,8 @@ So we will get
       "method": "DELETE"
     }
   },
-  "name": "Forex",
-  "email": "forex.kaiz@gmail.com"
+  "name": "Mirek",
+  "email": "miroslav.csonka@gmail.com"
 }
 ```
 
